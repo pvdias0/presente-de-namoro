@@ -666,7 +666,7 @@ button:focus-visible {
 
 .romantic-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0a0a 0%, #2c073e 30%, #5a0000 70%, #0a0a0a 100%); /* Darker gradient */
+  background: linear-gradient(135deg, #0a0a0a 0%, #2c073e 30%, #600385 70%, #0a0a0a 100%); /* Darker gradient */
   position: relative;
   overflow: hidden;
   font-family: 'Georgia', serif;
@@ -685,7 +685,7 @@ button:focus-visible {
 
 .falling-heart {
   position: absolute;
-  color: #e91e63; /* Darker pink */
+  color: #b449ab; /* Darker pink */
   filter: drop-shadow(0 0 10px rgba(233, 30, 99, 0.5)); /* Darker shadow */
   animation: fall linear infinite;
 }
@@ -755,7 +755,7 @@ button:focus-visible {
 .logo-heart {
   width: 2rem;
   height: 2rem;
-  color: #e91e63; /* Darker pink */
+  color: #991a1a; /* Darker pink */
   filter: drop-shadow(0 0 10px rgba(233, 30, 99, 0.5)); /* Darker shadow */
   animation: heartbeat 2s ease-in-out infinite;
 }
@@ -766,14 +766,14 @@ button:focus-visible {
 }
 
 .site-title {
-  color: white;
+  color: rgb(245, 210, 242);
   font-size: 1.25rem;
   font-weight: 600;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .date-display {
-  color: #e0b0c0; /* Muted light pink */
+  color: #e99dcf; /* Muted light pink */
   font-size: 0.875rem;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
@@ -867,7 +867,7 @@ button:focus-visible {
 }
 
 .nav-arrow:hover {
-  background: rgba(233, 30, 99, 0.8); /* Darker pink */
+  background: rgba(153, 19, 124, 0.8); /* Darker pink */
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -897,7 +897,7 @@ button:focus-visible {
   height: 0.75rem;
   border-radius: 50%;
   border: none;
-  background: rgba(233, 30, 99, 0.3); /* Darker pink */
+  background: rgba(202, 14, 171, 0.3); /* Darker pink */
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
@@ -912,7 +912,7 @@ button:focus-visible {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background: #e91e63; /* Darker pink */
+  background: #bd0da5; /* Darker pink */
   transition: all 0.3s ease;
 }
 
@@ -941,7 +941,7 @@ button:focus-visible {
 .main-title {
   font-size: 3rem;
   font-weight: bold;
-  color: white;
+  color: rgb(230, 181, 227);
   margin-bottom: 2rem;
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   line-height: 1.2;
@@ -963,7 +963,7 @@ button:focus-visible {
 .time-number {
   font-size: 1.75rem;
   font-weight: bold;
-  color: #e91e63; /* Darker pink */
+  color: #570550; /* Darker pink */
   text-shadow: 0 2px 4px rgba(233, 30, 99, 0.3); /* Darker shadow */
   animation: pulse 2s ease-in-out infinite;
 }
@@ -976,7 +976,7 @@ button:focus-visible {
 
 .time-separator {
   font-size: 1.25rem;
-  color: #e0b0c0; /* Muted medium pink */
+  color: #c581c7; /* Muted medium pink */
   margin: 0 0.25rem;
 }
 
@@ -987,7 +987,7 @@ button:focus-visible {
 
 .love-message {
   font-size: 1.125rem;
-  color: #f0e0e0; /* Muted light pink */
+  color: #d49bdb; /* Muted light pink */
   line-height: 1.6;
   max-width: 500px;
   margin: 0 auto;
@@ -998,7 +998,7 @@ button:focus-visible {
 .music-player {
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(233, 30, 99, 0.2); /* Darker pink border */
+  border: 1px solid rgba(134, 4, 117, 0.2); /* Darker pink border */
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
@@ -1014,12 +1014,12 @@ button:focus-visible {
 .album-art {
   width: 3rem;
   height: 3rem;
-  background: linear-gradient(135deg, #e91e63, #8e24aa); /* Darker gradient */
+  background: linear-gradient(135deg, #c239b0, #410452); /* Darker gradient */
   border-radius: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3); /* Darker shadow */
+  box-shadow: 0 4px 12px rgba(116, 8, 89, 0.3); /* Darker shadow */
   animation: rotate 10s linear infinite;
 }
 
@@ -1056,7 +1056,7 @@ button:focus-visible {
 .volume-icon {
   width: 1.25rem;
   height: 1.25rem;
-  color: #e91e63; /* Darker pink */
+  color: #820586; /* Darker pink */
 }
 
 /* Enhanced progress bar */
@@ -1068,7 +1068,7 @@ button:focus-visible {
   position: relative;
   width: 100%;
   height: 0.375rem;
-  background: rgba(50, 50, 50, 0.5); /* Darker grey */
+  background: rgba(68, 61, 61, 0.5); /* Darker grey */
   border-radius: 0.25rem;
   margin-bottom: 0.75rem;
   overflow: hidden;
@@ -1076,10 +1076,10 @@ button:focus-visible {
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #e91e63, #c2185b); /* Darker gradient */
+  background: linear-gradient(90deg, #693144, #581344); /* Darker gradient */
   border-radius: 0.25rem;
   transition: width 0.3s ease;
-  box-shadow: 0 0 10px rgba(233, 30, 99, 0.5); /* Darker shadow */
+  box-shadow: 0 0 10px rgba(133, 9, 106, 0.5); /* Darker shadow */
 }
 
 .progress-thumb {
@@ -1098,7 +1098,7 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
   font-size: 0.75rem;
-  color: #e0b0c0; /* Muted light pink */
+  color: #ad64a4; /* Muted light pink */
   font-weight: 500;
 }
 
@@ -1125,7 +1125,7 @@ button:focus-visible {
 
 .control-btn:hover {
   color: white;
-  background: rgba(233, 30, 99, 0.2); /* Darker pink */
+  background: rgba(158, 46, 121, 0.2); /* Darker pink */
   transform: scale(1.1);
 }
 
@@ -1135,7 +1135,7 @@ button:focus-visible {
 }
 
 .play-btn {
-  background: linear-gradient(135deg, #e91e63, #c2185b); /* Darker gradient */
+  background: linear-gradient(135deg, #5e024a, #c2185b); /* Darker gradient */
   border: none;
   border-radius: 50%;
   width: 3.5rem;
@@ -1145,12 +1145,12 @@ button:focus-visible {
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 20px rgba(233, 30, 99, 0.4); /* Darker shadow */
+  box-shadow: 0 8px 20px rgba(222, 6, 250, 0.4); /* Darker shadow */
 }
 
 .play-btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 12px 30px rgba(233, 30, 99, 0.6); /* Darker shadow */
+  box-shadow: 0 12px 30px rgba(88, 4, 99, 0.6); /* Darker shadow */
 }
 
 .play-btn svg {
@@ -1164,7 +1164,7 @@ button:focus-visible {
 .site-footer {
   padding: 2rem;
   text-align: center;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(230, 5, 5, 0.1);
   backdrop-filter: blur(10px);
 }
 
@@ -1179,7 +1179,7 @@ button:focus-visible {
   font-size: 1.125rem;
   line-height: 1.6;
   margin-bottom: 1rem;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 2px 4px rgba(187, 45, 175, 0.2);
 }
 
 .quote-author {
@@ -1292,7 +1292,7 @@ button:focus-visible {
 
 /* Focus styles for better accessibility */
 button:focus-visible {
-  outline: 2px solid #e91e63; /* Darker pink */
+  outline: 2px solid #540464; /* Darker pink */
   outline-offset: 2px;
 }
 
@@ -1308,6 +1308,6 @@ button:focus-visible {
   }
   
   .time-number {
-    color: #e91e63; /* Darker pink */
+    color: #540464; /* Darker pink */
   }
 }
